@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.iptvmate" name="IPTVMate Repo" version="1.0.5" provider-name="IPTVMate">
+	<extension point="xbmc.addon.repository" name="IPTVMate Repo">
+		<dir>
+			<info compressed="false">https://repo.iptvmate.net/addons.xml</info>
+			<checksum>https://repo.iptvmate.net/addons.xml.md5</checksum>
+			<datadir zip="true">https://repo.iptvmate.net/zip/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>IPTVMate Addons Repository</summary>
+		<description>This repository contains addons that are for adults. You may only view the contents of this repository if you are at least 18 years of age, or at least the age of majority in the jurisdiction where you reside or from which you access this content.</description>
+		<disclaimer>The owners and submitters to this repository do not host or distribute any of the content displayed by these addons nor do they have any affiliation with the content providers.</disclaimer>
+		<platform>all</platform>
+                <assets>
+                        <icon>icon.png</icon>
+                </assets>
+	</extension>
+</addon>
